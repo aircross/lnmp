@@ -1,4 +1,4 @@
-# LNMP一键安装包 魔改版 - Readme
+# LNMP一键安装包 却毒版 - Readme
 
 ## LNMP一键安装包是什么?
 
