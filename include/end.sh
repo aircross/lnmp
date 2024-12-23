@@ -229,7 +229,7 @@ Print_Sucess_Info()
     echo "+------------------------------------------------------------------------+"
     echo "|          LNMP V${LNMP_Ver} for ${DISTRO} Linux Server, Written by Licess          |"
     echo "+------------------------------------------------------------------------+"
-    echo "|           For more information please visit https://lnmp.org           |"
+    echo "|           For more information please visit https://lnmp.me            |"
     echo "+------------------------------------------------------------------------+"
     echo "|    lnmp status manage: lnmp {start|stop|reload|restart|kill|status}    |"
     echo "+------------------------------------------------------------------------+"
@@ -262,7 +262,7 @@ Print_Failed_Info()
         rm -f /bin/lnmp
     fi
     Echo_Red "Sorry, Failed to install LNMP!"
-    Echo_Red "Please visit https://bbs.vpser.net/forum-25-1.html feedback errors and logs."
+    # Echo_Red "Please visit https://bbs.vpser.net/forum-25-1.html feedback errors and logs."
     Echo_Red "You can download /root/lnmp-install.log from your server,and upload lnmp-install.log to LNMP Forum."
 }
 
