@@ -1,4 +1,4 @@
-# LNMP一键安装包 却毒版 - Readme
+# LNMP一键安装包 祛毒版 - Readme
 
 ## LNMP一键安装包是什么?
 
@@ -11,7 +11,7 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RHEL/Fedora/D
 * 去除了自动获取服务器所在地，相关设置移动至lnmp.conf > " country='US' " 默认US。大陆用户可以修改将US为CN，mariadb将从USTC镜像获取。
 * 由于去除了下载镜像，SourceGuardian以及ionCube安装失效，如有需求可以通过修改lnmp.conf中" Download_Mirror='https://soft.vpser.net' "恢复lnmp.me下载镜像即可安装。
 * Nginx Lua以及Zend无法在线获取，可以在release下载自带lua以及zend的包安装。
-* 虽然并没有修改脚本的逻辑，但是使用魔改版请不要去 https://bbs.vpser.net/forum-25-1.html 反馈。
+* 虽然并没有修改脚本的逻辑，但是使用祛毒版请不要去 https://bbs.vpser.net/forum-25-1.html 反馈。
 
 ## LNMP一键安装包有哪些功能？
 
@@ -26,7 +26,7 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RHEL/Fedora/D
 
 安装前确认已经安装git命令，如提示git: command not found ，使用`yum install git` 或 `apt-get install git` 命令安装。
 为防止掉线等情况，建议使用screen，可以先执行：screen -S lnmp 命令后，再执行LNMP安装命令：
-`git clone https://github.com/moeYuiYui/lnmp.git && cd lnmp && ./install.sh {lnmp|lnmpa|lamp}`
+`git clone https://github.com/aircross/lnmp.git && cd lnmp && ./install.sh {lnmp|lnmpa|lamp}`
 或者从release里下载lnmp-lua-zend.tar.gz
 `tar -xzf lnmp-lua-zend.tar.gz && cd lnmp && ./install.sh {lnmp|lnmpa|lamp}`
 
